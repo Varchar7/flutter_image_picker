@@ -48,7 +48,7 @@ class _ImageFromDailogueState extends State<ImageFromDailogue> {
       body: Center(
         child: imagePath == ''
             ? const Text(
-                'Image Test Not Found',
+                'Image Not Found',
                 style: TextStyle(
                   fontSize: 25,
                 ),
